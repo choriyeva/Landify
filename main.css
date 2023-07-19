@@ -134,6 +134,7 @@ header .container .tell {
     background-image: url(./images/BG.png);
     max-width: 1420px;
     margin: 0 auto;
+    padding: 10px 0px;
   }
   header .container nav .landify {
     padding: 20px 20px;
@@ -158,6 +159,7 @@ header .container .tell {
     max-width: 335px;
     margin-top: 148px;
     margin-left: 12px;
+    margin-bottom: 240px;
   }
   header .container .the h1 {
     color: #111827;
@@ -196,6 +198,73 @@ header .container .tell {
     border: none;
     font-weight: 400;
     background: white;
+  }
+  header .container .shakl1 {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #C4B5FD;
+    transform: skewY(352deg) translate(135px, 68px);
+  }
+  header .container .shakl2 {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #75E3EA;
+    transform: skewY(352deg) translate(0px, 20px);
+  }
+  header .container .shakl3 {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    transform: skewY(352deg) translate(135px, 12px);
+    background-color: #75E3EA;
+  }
+  header .container .shakl4 {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    transform: skewY(352deg) translate(0px, -37px);
+    background-color: #EDE9FE;
+  }
+  header .container .shakl5 {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #EDE9FE;
+    transform: skewY(352deg) translate(135px, -180px);
+  }
+  header .container .tell {
+    width: 320px;
+    height: 640px;
+    flex-shrink: 0;
+    transform: translate(10px, -425px);
+  }
+}
+.choriyeva {
+  margin-top: -700px;
+  padding: 16px 112px;
+}
+.choriyeva .air {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 24px 0;
+  background: var(--white, #FFF);
+  border-top: 1px solid #E5E7EB;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+@media screen and (max-width: 481px) {
+  .choriyeva {
+    margin-top: -370px;
+    margin-bottom: 50px;
+    padding: 16px 112px;
+  }
+  .choriyeva .air {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .zilola {
